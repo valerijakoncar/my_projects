@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paradise tours</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<meta name="keywords" content="turistička agencija,Nova godina,Evropski gradovi"/>
+		<meta name="description" content="Turistička agencija-Paradise tours;HIT PONUDE-leto 2018,Nova godina;putovanja-Evropski gradovi"/>
+		<meta name="language" content="serbian"/>
+		<link rel="shortcut icon" href="../slike/logo.ico"/>
+		<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFHLXmrRtyrv1loXNGJBkfyKLW65_S1_o&callback=initMap">
+		</script> 
+		<script type="text/javascript">
+		function initMap() {
+		var lokacija = {lat: 44.814514, lng: 20.483899};
+
+		var map = new
+		google.maps.Map(document.getElementById('google-map'),
+		{
+		zoom: 17,
+		center: lokacija
+		});
+
+		var marker = new google.maps.Marker({
+		position: lokacija,
+		map: map
+		});
+		}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header id="glavniHeader">
+				<div id="gHeader">
+					<div id="logo">
+						<a href="index.html" >
+						<img src="../slike/logo.png" alt="logo" width="160px" height="148px" title="Paradise tours"/>
+						</a>
+					</div>
+					
+					<div id="imeAgencije">
+					<hgroup>
+						<h1>Paradise</h1>
+						<h2>&nbsp;&nbsp;&nbsp;tours</h2>
+					</hgroup>
+					</div>
+					
+					<div id="pozovite">
+						<span class="red1">Pozovite nas!</span> <br/>
+						<span class="material-icons">call</span>
+						<span class="red2"><b>011/36 16 599</b></span>
+					</div>
+					
+					<div id="logovanje">
+						
+							<!--<li class="border"><a href="#">O AUTORU</a></li>-->
+							<div class="registrujSe">
+								<details><summary>Registruj se</summary>
+								<form action="#" method="POST" name="registar" id="registar">
+									<label>Korisničko ime:</label>
+									<input type="text" id="tekstPolje" name="tekstPolje" value="Korisničko ime.."/> <br/>
+									<label>Lozinka:</label>
+									<input type="password" id="lozinka" name="lozinka" value="Lozinka.."/><br/>
+									<label>E-mail:</label>
+									<input type="email" name="usermail1" placeholder="E-mail adresa.."/>
+								</form>	
+								</details>
+							</div>
+							<div class="logujSe"><details><summary>Prijavi se</summary>
+									<form action="#" method="POST" name="prijava" id="prijava">
+									<label>Korisničko ime:</label>
+									<input type="text" id="tekstPolje1" name="tekstPolje1" value="Korisničko ime.."/> <br/>
+									<label>Lozinka:</label>
+									<input type="password" id="lozinka1" name="lozinka1" value="Lozinka.."/><br/>
+									</form>
+								</details>
+							</li>
+						    </div>
+							<div id="cleaner"></div>
+					</div>
+					<div class="mreze1">
+						<a href="https://www.facebook.com/"><span class="fa fa-facebook-square">&nbsp;</span></a>
+						<a href="https://www.instagram.com/?hl=en"><span class="fa fa-instagram">&nbsp;</span></a>
+						<a href="https://twitter.com/?lang=en"><span class="fa fa-twitter">&nbsp;</span></a>
+						<a href="https://www.youtube.com/"><span class="fa fa-youtube-play"></span></a>
+						<div id="cleaner"></div>
+				    </div>
+					<div class="cleaner"></div>
+				</div>
+				
+				<nav id="meni">
+					<ul>
+						<li><a href="../index.html">Početna</a></li>
+						<li><a href="nova-godina.html">Nova godina</a></li>
+						<li><a href="evropski-gradovi.html">Evropski Gradovi</a></li>
+						<li><a href="letovanja.html">Letovanja</a></li>
+						<li class="active"><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="o-autoru.html">O autoru</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div id="main">
+				<div id="google-map"></div>
+				<div id="kontakt">
+					<div id="levoKontakt">
+						<p>Kontakt obrazac</p>
+						<form id="obrazac" action="#" method="POST">
+							<input type="text" id="imePrez" value="Ime i prezime" required autofocus /> <br/>
+							<input type="text" id="adresa" value="Adresa,grad"/><br/>
+							<input type="tel" id="tel" name="tel" value="Telefon"/><br/>
+							<input type="email" id="email" value="E-mail" required /><br/>
+							<textarea id="komentar" name="komentar">Komentar</textarea> <br/>
+						</form>
+					</div>
+					<div id="adrTel">
+						<span>Relax tours: <br/>Zdravka Čelara 16</span> <br/>
+						<span><br/>Tel:<br/>011/36 16 599<br/> 011/36 16 568<br/>063/140 32 68 </span>
+					</div>
+					
+				</div>
+			</div> 
+			
+				<footer class="glavniFooter">
+					<div id="goreFooter"> 
+						<div id="telefoni">
+							&nbsp;Telefoni:&nbsp;&nbsp; 011/36 16 599&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;011/36 16 568&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;063/140 32 68
+						</div>
+						<div id="rss">
+								<div class="fa fa-rss-square"></div>
+								<div class="siteMap"><img src="../slike/map.png" width="30px" height="30px"/></div>
+								<div id="cleaner"></div>
+						</div>
+						
+						<div class="mrezeFooter">
+				&nbsp;&nbsp;<a href="https://www.facebook.com/"><span class="fa fa-facebook-square">&nbsp;</span></a>
+							<a href="https://www.instagram.com/?hl=en"><span class="fa fa-instagram">&nbsp;</span></a>
+							<a href="https://twitter.com/?lang=en"><span class="fa fa-twitter">&nbsp;</span></a>
+							<a href="https://www.youtube.com/"><span class="fa fa-youtube-play"></span></a>
+							<div id="cleaner"></div>
+						</div>
+						<div id="cleaner"></div>
+					</div>
+					<div id="srednjiFooter">
+						<div class="levo">
+							<p>Ponuda</p>
+							<ul>
+								<li><a href="../index.html">Početna</a></li>
+								<li><a href="nova-godina.html">Nova godina</a></li>
+								<li><a href="evropski-gradovi.html">Evropski gradovi</a></li>
+								<li><a href="letovanja.html">Letovanja</a></li>
+							</ul>
+						</div>
+					
+						<div class="sredina">
+							<p>Informacije</p>
+							<ul>
+								<li><a href="kontakt.html">Kontakt</a></li>
+								<li><a href="o-autoru.html">O autoru</a></li>
+							</ul>
+						</div>
+					
+						<div class="desno">
+							<p>Povežite se sa nama</p>
+							<ul>
+								<li><a href="https://www.facebook.com">Facebook</a></li>      						<!-- vidi trebaju li linkovi za drustvene mreze i LINK,ALINK,Vlink-->
+								<li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
+								<li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+								<li><a href="https://www.youtube.com/">Youtube</a></li>
+							</ul>
+						</div>
+						<div class="cleaner"></div>
+					</div>
+					<div id="donjiFooter">
+						<div id="email"><h5>valerija&#46;koncar&#46;56&#46;17&#64;ict&#46;edu&#46;rs</h5></div>
+						<div id="copyright">
+							<p><h5>Copyright &copy;&nbsp;&nbsp;Relax&nbsp;&nbsp;tours&nbsp;&nbsp;2017</h5></p>
+						</div>
+						<div id="cleaner"></div>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>

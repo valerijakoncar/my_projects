@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://sajtovistudenata.ict.edu.rs/56_17/index.html</loc>
+	<lastmod>2017-12-08</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1</priority>
+</url>
+<url>
+	<loc>http://sajtovistudenata.ict.edu.rs/56_17/nova-godina.html</loc>
+	<lastmod>2017-12-08</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>http://sajtovistudenata.ict.edu.rs/56_17/evropski-gradovi.html</loc>
+	<lastmod>2017-12-08</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>http://sajtovistudenata.ict.edu.rs/56_17/letovanja.html</loc>
+	<lastmod>2017-12-08</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>http://sajtovistudenata.ict.edu.rs/56_17/kontakt.html</loc>
+	<lastmod>2017-12-08</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>http://sajtovistudenata.ict.edu.rs/56_17/o-autoru.html</loc>
+	<lastmod>2017-12-08</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.1</priority>
+</url>
+</urlset>
